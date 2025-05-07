@@ -1,0 +1,39 @@
+
+/* Register.css */
+
+/* Glassmorphism effect */
+.glass {
+    backdrop-filter: blur(10px);
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+}
+
+/* Custom styles for form elements */
+input {
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 1rem;
+}
+
+button {
+    background-color: #333333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #000000;
+}
+
+/* Additional responsive styling */
+@media (max-width: 768px) {
+    .glass {
+        padding: 1rem;
+    }
+}
